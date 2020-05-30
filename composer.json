@@ -46,7 +46,16 @@
     "drupal-scaffold": {
       "locations": {
         "web-root": "public_html/"
-      }
+      },
+      "excludes": [
+        "sites/development.services.yml",
+        ".csslintrc",
+        ".editorconfig",
+        ".eslintignore",
+        ".eslintrc.json",
+        ".htaccess",
+        "web.config"
+      ]
     },
     "installer-paths": {
       "public_html/core": ["type:drupal-core"],
